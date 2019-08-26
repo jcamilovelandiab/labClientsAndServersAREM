@@ -11,7 +11,7 @@ import java.net.*;
 *   The servers returns all requested files including websites and images.
 *   @author Juan Camilo Velandia Botello.
 */
-public class ServerNoConcurrent {
+public class ServerNonConcurrent {
 	public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = null;
         try {

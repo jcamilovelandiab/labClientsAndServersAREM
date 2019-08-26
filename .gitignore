@@ -31,3 +31,8 @@ target/
 .vscode
 .classpath
 .project
+.settings
+
+# ignora la carpeta target
+
+/target
