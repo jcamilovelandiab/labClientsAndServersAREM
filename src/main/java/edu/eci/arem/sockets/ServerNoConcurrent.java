@@ -6,8 +6,12 @@ import java.io.*;
 import java.net.*;
 
 
+/**
+*   This class is a server, and it supports multiple non-concurrent requests.
+*   The servers returns all requested files including websites and images.
+*   @author Juan Camilo Velandia Botello.
+*/
 public class ServerNoConcurrent {
-
 	public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = null;
         try {

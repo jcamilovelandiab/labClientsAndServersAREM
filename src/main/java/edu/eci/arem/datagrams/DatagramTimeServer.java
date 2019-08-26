@@ -12,9 +12,8 @@ import java.util.logging.Logger;
 
 /**
  * This class works with an architecture Client-Server.
- * This client sends packets to a server and recieves responses form the server.
+ * This server sends packets containing the date and time to the client.
  * The client and server communicate through the port 45000.
- * 
  * @author Juan Camilo Velandia Botello
  */
 public class DatagramTimeServer {

@@ -9,8 +9,9 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * @author Juan Camilo Velandia Botello
- */
+*	This class has a main method that reads a url (website) and brings everything it contains.
+*	@author Juan Camilo Velandia Botello
+*/
 public class exerciseTwo {
 	public static void main(String args[]) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

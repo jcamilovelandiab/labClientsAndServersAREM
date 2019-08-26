@@ -12,7 +12,7 @@ import java.net.SocketTimeoutException;
 
 /**
  * This class works with an architecture Client-Server.
- * This client sends requestes to a server and recieves responses form the server.
+ * This client sends requestes to a server and recieves responses from the server.
  * The client and server communicate through the port 45000.
  * @author Juan Camilo Velandia Botello
  */
@@ -33,7 +33,6 @@ public class DatagramTimeClient {
                 socket.receive(packet);
                 received = new String(packet.getData(), 0, packet.getLength());
                 System.out.println("Date: " + received);
-
                 Thread.sleep(5000);
             }catch (SocketTimeoutException ex){
                 System.out.println("Last date: " + received);
